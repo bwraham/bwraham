@@ -1,9 +1,9 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, CallbackContext, filters, MessageHandler
 
-TOKEN = '7____92____1:AAH___QC1Hcc___tIQy0tjC___HHBm___PM'
+TOKEN = 'token ...'
 CHANNEL_USERNAME = '@taekwondo_iran_rezania'
-ADMIN_CHAT_ID = '24_____587'
+ADMIN_CHAT_ID = 'id ...'
 
 async def check_membership(user_id: int, context: CallbackContext) -> bool:
     try:
